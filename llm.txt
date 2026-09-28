@@ -1,0 +1,4 @@
+# Compatibilidade
+
+As informações canônicas deste site estão publicadas em:
+https://elementarla.com.br/llms.txt
