@@ -67,7 +67,7 @@ if ($name === '' || strlen($phoneDigits) < 10 || strlen($phoneDigits) > 15 || $e
     respond(422, 'Preencha nome, telefone e e-mail corretamente.');
 }
 
-if ($privacyConsent !== 'accepted' || $noticeVersion !== '2026-09-24') {
+if ($privacyConsent !== 'accepted' || $noticeVersion !== '2026-09-28') {
     respond(422, 'É necessário aceitar a Política de Privacidade.');
 }
 
