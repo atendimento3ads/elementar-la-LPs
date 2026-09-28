@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/hg3ads37/elementarla.com.br/
+    - /bin/mkdir -p "$DEPLOYPATH"
+    - /bin/cp -R assets "$DEPLOYPATH"
+    - /bin/cp -R licenciamento-ambiental licenciamento-ambiental-video licenciamento-ambiental-wp monitoramento-da-qualidade-do-ar "$DEPLOYPATH"
+    - /bin/cp .htaccess 404.html acessibilidade.html llm.txt llms.txt politica-de-privacidade.html robots.txt send-lead.php sitemap.xml termos-de-uso.html "$DEPLOYPATH"
